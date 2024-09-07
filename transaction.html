@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction Review</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="transaction.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <div class="container">
+        <!-- Back Button -->
+        <a href="index.html" class="listing-link">
+        <span class="material-symbols-outlined">arrow_back_ios</span>
+        </a>
+        <!-- Header -->
+        <h1 class="header">Transaction Review</h1>
+
+        <!-- Apartment Details -->
+        <div class="listing-container">
+            <div class="listing-item">
+                <div class="image-wrapper">
+                    <img src="apartment2.jpg" alt="Sky Dandelions Apartment">
+                    <div class="heart-button" id="heartButton1">
+                        <i class="material-symbols-sharp">favorite</i>
+                    </div>
+                </div>   
+                <div class="listing-info">
+                    <h2>Sky Dandelions Apartment</h2>
+                    <span class="material-symbols-sharp">location_on<p> Sector 28, Gurgaon</p></span>
+                    <span class="price">
+                        <button>
+                            <h2>₹ 22,000</h2>
+                            <h5>/month</h5>
+                        </button>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Select Period -->
+        <div class="period-container">
+            <div class="select-period">
+                <h3>Select Period</h3>
+                <div class="period-options">
+                    <button>3 months</button>
+                    <button>6 months</button>
+                    <button>9 months</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Payment Details -->
+        <div class="payment">
+            <span>
+                <h2>Payment Details</h2>
+            </span>
+            <div class="payment-container">
+                <div class="payment-details">
+                    <div class="item">
+                        <p><strong>Period time:</strong><span class="value">6 months</span></p>
+                    </div>
+                    <div class="item">
+                        <p><strong>Monthly payment:</strong><span class="value">₹ 22,020</span> </p>
+                    </div>
+                    <div class="item">
+                        <p><strong>Security deposit:</strong><span class="value">₹ 0</span> </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="total">
+                        <p><strong>Total:</strong><span class="value1">₹ 132,120</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pay Button -->
+        <a href="deposit.html" class="listing-link"> 
+        <button class="pay-button">Pay with Circle</button>
+         </a> 
+    </div>
+
+      
+    <script src="index.js"></script>
+</body>
+
+</html>
